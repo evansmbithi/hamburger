@@ -1,3 +1,5 @@
 # hamburger
 
-<frame src="https://evansmbithi.github.io/hamburger/"></frame>
+<figure class="video_container">
+<iframe src="https://evansmbithi.github.io/hamburger/"></iframe>
+</figure>
