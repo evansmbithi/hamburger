@@ -1,3 +1,4 @@
+// Hamburger menu animation
 const navBtn = document.querySelector("#navBtn");
 
 navBtn.addEventListener("click", () => {
