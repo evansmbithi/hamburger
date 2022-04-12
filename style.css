@@ -1,0 +1,39 @@
+#navBtn > span {
+  display: block;
+  width: 28px;
+  height: 2px;
+  border-radius: 9999px;
+  background-color: #000;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+#navBtn > span:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+#navBtn, #navBtn > span {
+  transition: all .4s ease-in-out;
+}
+
+#navBtn.active {
+  transition-delay: .8s;
+  transform: rotate(45deg);
+}
+
+#navBtn.active > span:nth-child(2) {
+  width: 0;
+}
+
+#navBtn.active > span:nth-child(1),
+#navBtn.active > span:nth-child(3) {
+  transition-delay: .4s;
+}
+
+#navBtn.active > span:nth-child(1){
+  transform: translateY(9px);
+}
+
+#navBtn.active > span:nth-child(3) {
+  transform: translateY(-9px) rotate(90deg);
+}
